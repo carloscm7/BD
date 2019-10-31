@@ -1,0 +1,49 @@
+<title>Agenda</title>
+<link rel="stylesheet" href="https://www.tv-onlinehd.com/styles.css">
+<script src="https://www.tv-onlinehd.com/ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body link='#404040' onload='guardaHorario();dT();' vlink='#547484'>
+<div id="wrapper">
+	<ul class="menu">
+		<center>
+		<div class="sombreada_css3">
+			<font size=2 face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
+			<b>Agenda Deportiva del día viernes 01 de Noviembre 2019</b></font>
+		</div>
+		</center>
+                <li class="PE"><a href="http://www.tv-onlinehd.com/espn-online-por-internet.html" target="_blank">
+		Champions League: PSG VS Real Madrid en Vivo <span class="t">3:00</span></a>
+		</li>
+        <li class="CHA"><a href="http://www.tv-onlinehd.com/bein-la-liga-en-vivo.html" target="_blank">
+		Champions League: PSG VS Real Madrid en Vivo <span class="t">2:00</span></a>
+		</li>
+        <li class="CHA"><a href="http://www.tv-onlinehd.com/fox-sports-online-por-internet.html" target="_blank">
+		Champions League: Atlético Madrid vs Juventus en Vivo <span class="t">2:00</span></a>
+		</li>
+                <li class="CHA"><a href="http://www.tv-onlinehd.com/univision-tdn-en-vivo.html" target="_blank">
+		Champions League: Atlético Madrid vs Juventus en Vivo <span class="t">2:00</span></a>
+		</li>
+                <li class="CHA"><a href="http://www.tv-onlinehd.com/tdn-en-vivo.html" target="_blank">
+		Champions League: Atlético Madrid vs Juventus en Vivo <span class="t">2:00</span></a>
+		</li>
+	</ul>
+</div>
+<!--initiate accordion-->
+<script type="text/javascript">
+	$(function() {
+	 var menu_ul = $('.menu > li > ul'),
+	 menu_a = $('.menu > li > a');
+	 menu_ul.hide();
+	 menu_a.click(function(e) {
+	 e.preventDefault();
+	 if(!$(this).hasClass('active')) {
+	 menu_a.removeClass('active');
+	 menu_ul.filter(':visible').slideUp('fast');
+	 $(this).addClass('active').next().stop(true,true).slideDown('fast');
+	 } else {
+	 $(this).removeClass('active');
+	 $(this).next().stop(true,true).slideUp('fast');
+	 }
+	 });
+	});
+</script>
