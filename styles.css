@@ -28,7 +28,7 @@ ul, ul ul {
 
 
 .menu > li > a {
-	background-color: #000000;
+	background-color: #000066;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)),to(rgb(80, 88, 100)));
 	background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
 	background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
@@ -48,7 +48,7 @@ ul, ul ul {
 	position: relative;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
-	color: #000066;
+	color: #404040;
     font-size: 1.0em;
 	text-shadow: 0px 0px 0px rgba(0,0,0,5);
 
